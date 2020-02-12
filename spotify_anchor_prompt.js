@@ -1,3 +1,11 @@
+/*
+
+A fun coding prompt from Anchor at Spotify:
+
+If you want to jumpstart the process of talking to us about this role, here’s a little challenge: write a program that outputs the largest unique set of characters that can be removed from this paragraph without letting its length drop below 50.
+ 
+*/
+
 const message = `If you want to jumpstart the process of talking to us about this role, here’s a little challenge: write a program that outputs the largest unique set of characters that can be removed from this paragraph without letting its length drop below 50.`
 
 const largestSubset = (message, minLength = 50) => {
@@ -31,3 +39,35 @@ const largestSubset = (message, minLength = 50) => {
 }
 
 console.log(largestSubset(message))
+
+// Result:
+// ['0',
+// '.',
+// 'I',
+// 'v',
+// 'q',
+// 'y',
+// ':',
+// '’',
+// ',',
+// 'k',
+// '5',
+// 'j',
+// 'd',
+// 'b',
+// 'w',
+// 'f',
+// 'm',
+// 'c',
+// 'n',
+// 'p',
+// 'g',
+// 'i',
+// 'u',
+// 'l',
+// 'h',
+// 's',
+// 'r',
+// 'o',
+// 'a',
+// 'e']
